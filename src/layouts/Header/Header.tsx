@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ButtonColor } from '@/components/ui/Buttons/ButtonColor/ButtonColor';
 import { Burger } from '@/components/ui/Burger/Burger';
 import { MobileBurger } from '@/components/common/MobileBurger/MobileBurger';
+import { ArrayIcon } from '@/components/ui/Buttons/ArrayIcon';
 
 export const Header: FC = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -49,26 +50,31 @@ export const Header: FC = () => {
           <ul className={styles.list}>
             <li className={styles.item}>
               <a className={styles.link} href='#two'>
-                ABOUT
+                About
               </a>
             </li>
             <li className={styles.item}>
               <a className={styles.link} href='#three'>
-                FEATURES
+                Features
               </a>
             </li>
             <li className={styles.item}>
               <a className={styles.link} href='#eleven'>
-                ROADMAP
+                Roadmap
               </a>
             </li>
             <li className={styles.item}>
               <a className={styles.link} href='#partners'>
-                PARTNERS
+                Partners
               </a>
             </li>
             <li className={styles.item}>
-              <ButtonColor href='#ten'>AIRDROP</ButtonColor>
+              <a className={styles.link} href='#blog'>
+                Blog
+              </a>
+            </li>
+            <li className={styles.item}>
+              <ButtonColor href='#ten'>Airdrop <ArrayIcon/></ButtonColor>
             </li>
           </ul>
         </nav>

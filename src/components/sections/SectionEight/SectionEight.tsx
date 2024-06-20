@@ -24,7 +24,7 @@ export const SectionEight = () => {
         className={styles.wrp}
       >
         <div className={styles.info}>
-          <Features />
+          <Features queueNum='6'/>
           <h2 className={styles.title}>Aggregated Native Yield Restaking</h2>
           <p className={styles.description}>
             Lumia introduces industry-first yield maximization via Delta Neutral Liquidity

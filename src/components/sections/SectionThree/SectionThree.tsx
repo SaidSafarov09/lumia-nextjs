@@ -32,7 +32,7 @@ export const SectionThree = () => {
         </div>
       </motion.div>
 
-      <Video src='/3.mp4' />
+      <Video src='/4.mp4' />
     </section>
   );
 };

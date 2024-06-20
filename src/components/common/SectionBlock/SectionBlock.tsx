@@ -1,36 +1,12 @@
 'use client';
 import { motion, useInView } from 'framer-motion';
 import React, { useRef } from 'react';
+import { Video } from '@/components/common/Video/Video';
 import styles from './SectionBlock.module.scss';
 import { useMediaQuery } from '@/hooks/useMediaQuery';
 import clsx from 'clsx';
 
-const ARRAY_INFO = [
-  {
-    title: 'EigenDA',
-    left: true,
-  },
-  {
-    title: 'AI/zkML Tech',
-    left: false,
-  },
-  {
-    title: 'RaaS Infrastructure',
-    left: true,
-  },
-  {
-    title: 'Biconomy Account Abstraction',
-    left: false,
-  },
-  {
-    title: 'Polygon CDK and AggLayer',
-    left: true,
-  },
-  {
-    title: 'Lumia Stream liquidity at its core',
-    left: false,
-  },
-];
+
 
 export const SectionBlock = () => {
   const ref = useRef(null);
@@ -43,22 +19,18 @@ export const SectionBlock = () => {
   const tabletSM = useMediaQuery('tabletSM');
 
   const refList = useRef(null);
-
-  const inViewList = useInView(refList, {
-    once: false,
-  });
-
   return (
     <section className={styles.sectionBlock} id='block'>
-      <motion.h2
-        ref={ref}
+      
+      <motion.div className={styles.centerText} ref={ref}
         initial={{ opacity: 0, x: -150 }}
         animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -150 }}
-        transition={{ duration: 1.5 }}
-        className={styles.title}
-      >
-        Lumia is the next-gen modular L2 leveraging
-      </motion.h2>
+        transition={{ duration: 1.5 }}>
+        
+        <motion.h2 className={styles.text} >
+        Lumia’s Core Strengths
+        </motion.h2>
+      </motion.div>
       <div className={clsx(styles.videoWrapper, styles.mob)}>
         <video
           ref={videoRef}
@@ -86,7 +58,7 @@ export const SectionBlock = () => {
           loop
           playsInline
         >
-          <source src={'/blocks.mp4'} type='video/mp4' />
+          <source src={'/3.mp4'} type='video/mp4' />
         </video>
       </div>
 

@@ -6,6 +6,7 @@ import clsx from 'clsx';
 import { ButtonColor } from '@/components/ui/Buttons/ButtonColor/ButtonColor';
 import { motion, useInView } from 'framer-motion';
 import { Video } from '@/components/common/Video/Video';
+import { ArrayIcon } from '@/components/ui/Buttons/ArrayIcon';
 
 export const SectionOne: FC = () => {
   const ref = useRef(null);
@@ -29,7 +30,7 @@ export const SectionOne: FC = () => {
             The first ever <TxtRotate />
           </p>
           <p className={clsx(styles.description, styles.margin)}>restake roll up L2 for RWAs</p>
-          <ButtonColor href='#nine'>AIRDROP</ButtonColor>
+          <ButtonColor href='#nine' variant='sectionOne'>Node Sale <ArrayIcon/></ButtonColor>
         </div>
       </motion.div>
 

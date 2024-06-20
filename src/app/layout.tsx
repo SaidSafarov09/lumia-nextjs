@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from 'next';
-import { Poppins } from 'next/font/google';
+import { Chakra_Petch } from 'next/font/google';
 import { ReactNode } from 'react';
 import '@/assets/styles/index.scss';
 import { Header } from '@/layouts/Header/Header';
 
-const popins = Poppins({ subsets: ['latin'], weight: ['400', '500'] });
+const popins = Chakra_Petch({ subsets: ['latin'], weight: ['400', '500'] });
 
 export const metadata: Metadata = {
   title: 'Lumia',

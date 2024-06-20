@@ -24,7 +24,7 @@ export const SectionSix = () => {
         className={styles.wrp}
       >
         <div className={styles.info}>
-          <Features />
+          <Features queueNum='4'/>
           <h2 className={styles.title}>Built-In KYC and Privacy</h2>
           <p className={styles.description}>
             Employing PolygonID for secure and decentralized identity verification, Lumia ensures

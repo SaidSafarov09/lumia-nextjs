@@ -1,11 +1,11 @@
 export const slideData = {
   slideOne: {
-    title: 'Focused on RWAs',
+    title: 'The Ultimate Infrastructure for RWAs',
     description:
-      'Lumia specializes in the seamless integration and liquidity management of real-world assets (RWAs), enabling businesses to efficiently bring their tokenized assets – real estate, commodities, and financial instruments – onto DeFi.',
+      'Lumia specializes in the seamless integration, liquidity provisioning, and infrastructure enabling businesses to efficiently bring their tokenized assets such as real estate, commodities, and financial instruments onto DeFi.',
   },
   slideTwo: {
-    title: 'Boundless Liquidity',
+    title: 'A Revolution in Liquidity Provisioning with Lumia Stream',
     description:
       'Lumia Stream aggregates liquidity from the entire market (CEXs and DEXs), creating a decentralized solution that makes liquidity available cross-chain via Atomic Swaps with Hashed Time Lock Contracts, ensuring seamless trading of assets.',
   },

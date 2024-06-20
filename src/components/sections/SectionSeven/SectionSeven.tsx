@@ -22,7 +22,7 @@ export const SectionSeven = () => {
         className={styles.wrp}
       >
         <div className={styles.info}>
-          <Features />
+          <Features queueNum='5'/>
           <h2 className={styles.title}>
             Pioneering scalability, decentralization, and fast finality
           </h2>

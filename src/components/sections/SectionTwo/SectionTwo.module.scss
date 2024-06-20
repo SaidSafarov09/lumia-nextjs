@@ -5,7 +5,7 @@
   scroll-snap-align: start;
   display: flex;
   justify-content: space-between;
-  padding: 0px 64px;
+  padding: 0px 90px;
 
   @include respond(tabletL) {
     padding: 0px 24px;
@@ -33,6 +33,10 @@
       max-width: 500px;
 
       .title {
+        background: linear-gradient(90deg, #B6DAFF 0%, #FFFFFF 45.5%, #505E7D 100%);
+color: #B6DAFF;
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
         @include Semibold_50;
         text-align: left;
         margin-bottom: 34px;
@@ -52,6 +56,7 @@
   
       .description {
         @include Regular_20;
+        font-size: 23px;
         color: var(--white);
   
         @include respond(mobileL) {

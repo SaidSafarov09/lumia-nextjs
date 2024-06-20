@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './TxtRotate.module.scss';
 
-const arr = ['Connected', 'Intelligent', 'Private', 'Capital efficient', 'Liquid'];
+const arr = ['Capital efficient', 'Intelligent', 'Private', 'Capital efficient', 'Liquid'];
 
 export const TxtRotate = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

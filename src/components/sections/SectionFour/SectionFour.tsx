@@ -24,7 +24,7 @@ export const SectionFour = () => {
         className={styles.wrp}
       >
         <div className={styles.info}>
-          <Features />
+          <Features queueNum='2'/>
           <h2 className={styles.title}>Boundless Liquidity</h2>
           <p className={styles.description}>
             Lumia Stream aggregates liquidity from the entire market (CEXs and DEXs), creating a
