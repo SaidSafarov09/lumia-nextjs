@@ -7,6 +7,12 @@
   justify-content: space-between;
   padding: 0px 64px;
 
+  & video {
+    width: 1014px !important;
+    right: -100px;
+    height: 750px;
+  }
+
   @include respond(tabletL) {
     padding: 0px 24px;
   }

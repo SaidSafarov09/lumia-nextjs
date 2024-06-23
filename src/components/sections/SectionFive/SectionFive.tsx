@@ -23,7 +23,7 @@ export const SectionFive = () => {
       >
         <div className={styles.info}>
           <Features queueNum='3'/>
-          <h2 className={styles.title}>Account Abstraction and Intents</h2>
+          <h2 className={styles.title}>Pioneering Scalability,<br /> Decentralization, and Fast<br/>Finality</h2>
           <p className={styles.description}>
             Integrated EIP-4337 and intents technology simplify blockchain interactions, making them
             more intuitive for incoming
@@ -31,7 +31,7 @@ export const SectionFive = () => {
         </div>
       </motion.div>
 
-      <Video src='/5.mp4' />
+      <Video src='/6.mp4' />
     </section>
   );
 };

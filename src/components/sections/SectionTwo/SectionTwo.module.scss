@@ -7,6 +7,11 @@
   justify-content: space-between;
   padding: 0px 90px;
 
+  & video {
+    width: 901px !important;
+    left: -110px;
+  }
+
   @include respond(tabletL) {
     padding: 0px 24px;
   }
@@ -30,14 +35,14 @@
     }
     
     .info {
-      max-width: 500px;
+      max-width: 700px;
 
       .title {
         background: linear-gradient(90deg, #B6DAFF 0%, #FFFFFF 45.5%, #505E7D 100%);
-color: #B6DAFF;
--webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-        @include Semibold_50;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 52px;
+        font-weight: 400;
         text-align: left;
         margin-bottom: 34px;
   

@@ -13,6 +13,8 @@ import { SectionTwo } from '@/components/sections/SectionTwo/SectionTwo';
 import styles from './MainPage.module.scss';
 import { SectionBlock } from '@/components/common/SectionBlock/SectionBlock';
 import { ParnersSection } from '@/components/sections/ParnersSection/ParnersSection';
+import { SectionContributors } from '../../components/sections/SectionContributors/SectionContributors';
+import { SectionDePin } from '@/components/sections/SectionDePin/SectionDePin';
 
 export function MainPage() {
   return (
@@ -27,8 +29,10 @@ export function MainPage() {
       <SectionSeven />
       <SectionEight />
       <SectionNine />
+      <SectionDePin/>
       <SectionTen />
       <SectionEleven />
+      <SectionContributors/>
       <ParnersSection />
       <Footer />
     </main>

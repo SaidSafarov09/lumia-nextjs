@@ -16,10 +16,16 @@
     padding: 34px 73px;
     border: 1px solid #19244A;
     background: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;box-shadow: 0px 4px 15px 0px #273445;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px 0px #273445;
     max-height: 148px;
     width: 100%;
     max-width: 825px;
+    @media (max-width: 960px) {
+      padding: 23px 33px;
+      max-width: 264px;
+      max-height: 71px;
+    }
 
     & .text {
       font-weight: 400;
@@ -27,6 +33,10 @@
       letter-spacing: 2%;
       text-align: center;
       line-height: 79.8px;
+      @media (max-width: 960px) {
+        font-size: 18px;
+        line-height: 25.2px;
+      }
     }
   }
   .title {
